@@ -46,7 +46,7 @@ function setGradient() {
   body.style.background = bgColor
   textValue.textContent = bgColor
 }
-setGradient()
+// setGradient()
 div.addEventListener("click", ()=>{
      
      setGradient()
