@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Marko+One&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+  font-family: 'Marko One', serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(204, 204, 204, 0.5);
+    padding: 15px 25px;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    margin-bottom: 25px;
+    position: relative;
+}
+.div:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transform: scale(1.007);
+}
+
+h5{
+    position: absolute;
+    bottom: 50px;
+}
+
+@media (max-width: 420px){
+
+    h1{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    
+}
+
