@@ -21,7 +21,7 @@ const body = document.querySelector("body");
 const div = document.querySelector(".div");
 const textValue = document.querySelector(".text-value");
 
-//random
+//random Color
 
 function getGradient() {
   let color = "#";
@@ -34,7 +34,7 @@ function getGradient() {
   }
   return color;
 }
-// console.log(color1, color2);
+//Random  deg
 
 function setGradient() {
      const color1 = getGradient();
